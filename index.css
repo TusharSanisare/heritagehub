@@ -141,7 +141,7 @@ nav {
     height: 100%;
     background-color: black;
 /*     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.694)), url(/images/hero.png); 00:24 06-09-2023 me c****** fu***** */
-    background-image: linear-gradient(to top right, #f94a1069, #f8df227a), url(hero1.png);
+    background-image: linear-gradient(to top right, #f94a1069, #f8df227a), url(/hero1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
