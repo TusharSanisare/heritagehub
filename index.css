@@ -214,7 +214,7 @@ nav {
 .mandala {
     border-radius: 500px;
     z-index: -1;
-    height: 650px;
+    height: 600px;
     opacity: 0.1;
     animation: rotateImg 200s linear infinite;
     position: absolute;
