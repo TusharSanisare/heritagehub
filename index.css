@@ -37,7 +37,6 @@ body {
     font-size: 20px;
     color: #fff;
 }
-
 nav {
     height: 60px;
     width: 100%;
@@ -53,6 +52,8 @@ nav {
 .navLinks ul {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .navLinks a {
@@ -140,7 +141,7 @@ nav {
 .img {
     height: 100%;
     background-color: black;
-/*     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.694)), url(/images/hero.png); 00:24 06-09-2023 me c****** fu***** */
+/*     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.694)), url(/images/hero-background.webp); */
     background-image: linear-gradient(to top right, #f94a1069, #f8df227a), url(hero1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -261,6 +262,9 @@ nav {
     background: linear-gradient(to top left, #fd6d3d, #fce851);
     box-shadow: 0px 0px 50px #ffffff;
 }
+.states ul::-webkit-scrollbar{
+    display: none;
+}
 
 .states li {
     text-align: center;
@@ -312,7 +316,8 @@ nav {
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .newArrival{
-    
+    background:linear-gradient(white,#f94a1082,white);
+    padding:30px 0;
     margin-bottom: 50px;
 }
 .productContainer{
@@ -322,4 +327,16 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.productContainer .card{
+    margin:  5px;
+    transition-duration: 0.2s;
+    /* border: 1px solid rgba(0, 0, 0, 0.55); */
+}
+
+.productContainer .card:hover{
+    /* margin:  3px 5px; */
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.189);
 }
