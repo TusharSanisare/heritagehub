@@ -215,7 +215,8 @@ nav {
     border-radius: 500px;
     z-index: -1;
     height: 650px;
-    animation: rotateImg 60s linear infinite;
+    opacity: 0.1;
+    animation: rotateImg 200s linear infinite;
     position: absolute;
 }
 
