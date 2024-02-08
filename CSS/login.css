@@ -29,7 +29,7 @@ body {
     .image {
         height: 100%;
         width: 50%;
-        background-image: url("/IMAGE/picture2.jpg");
+        background-image: url("../IMAGE/picture2.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

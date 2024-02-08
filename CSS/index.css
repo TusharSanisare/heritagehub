@@ -286,21 +286,21 @@ nav {
 
             
             .heroImg1 {
-                background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/IMAGE/womanMaking.png");
+                background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMAGE/womanMaking.png");
                 background-position: start;
                 background-repeat: no-repeat;
                 background-size: cover;
             }
             
             .heroImg2 {
-                background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/IMAGE/india_blue.jpg");
+                background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../IMAGE/india_blue.jpg");
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
 
             }
             .heroImg3 {
-                background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/IMAGE/womanMaking1.webp");
+                background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../IMAGE/womanMaking1.webp");
                 background-position: start;
                 background-repeat: no-repeat;
                 background-size: cover;
