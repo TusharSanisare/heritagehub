@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heritagehub - find and sale your heritage art</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/sellerDashBoard.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo" id="navlogo">heritagehub</div>
+        <h2>Wellcome SellerName</h2>
+        <form action="#">
+            <div class="searchBar">
+                <input id="navSearchBarInput" type="text" placeholder="Search your product">
+                <button id="navSearchBarButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+    </nav>
+
+
+    <div class="main">
+        <div class="main-left">
+            <h1><i class="fa-solid fa-bars"></i> DashBoard</h1>
+            <ul>
+                <li class="" id="profile"><a href="#"><i class="fa-solid fa-user"></i> Profile</a></li>
+                <li class="" id="add"><a href="#"><i class="fa-solid fa-square-plus"></i> Add Products</a></li>
+                <li class="" id="view"><a href="#"><i class="fa-solid fa-eye"></i> View Products</a></li>
+                <li class="" id="history"><a href="#"><i class="fa-solid fa-clipboard"></i> Order History</a></li>
+                <li class="" id="newOrder"><a href="#"><i class="fa-solid fa-folder-open"></i> New Order</a></li>
+                <li class="" id="notification"><a href="#"><i class="fa-solid fa-envelope"></i> Notifications</a></li>
+                <li class="""><a href="#"><i class="fa-solid fa-gear"></i> Setting</a></li>
+                <li class="" id=""><a href="index.html"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+            </ul>
+        </div>
+        <div class="main-right">
+
+
+            <div id="profile" class="profile-container" style="display: none;">
+                <form action="#" class="profile">
+
+                    <input type="text" name="id" id="id" placeholder="id" style="display: none;">
+
+                    <label for="name">UserName</label>
+                    <input type="text" name="name" id="name" placeholder="SellerName">
+
+                    <label for="name">Company/Shop</label>
+                    <input type="text" name="company" id="company" placeholder="Company/Shop">
+
+                    <label for="name">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="email">
+
+                    <label for="name">Phone NO.</label>
+                    <input type="text" name="phone" id="phone" placeholder="phone">
+
+                    <label for="name">password</label>
+                    <input type="text" name="password" id="password" placeholder="password">
+
+                    <input class="btn" type="submit" value="Save Changes">
+                </form>
+            </div>
+
+            <div id="add" class="addProduct-container">
+
+                <form action="#" class="add">
+
+                    <label for="categoryName">Enter Category Name</label>
+                    <select required name="categoryName" class="select-option">
+                        <option value="" disabled selected hidden>Select Category</option>
+                        <option value="paintings">paintings</option>
+                        <option value="cloths">cloths</option>
+                        <option value="woodCraft">wood craft</option>
+                        <option value="embroidery">embroidery</option>
+                        <option value="toys">toys</option>
+                        <option value="metalWork">metal work</option>
+                        <option value="carpets">carpets</option>
+                        <option value="bombooCraft">bomboo craft</option>
+                        <option value="jewellery">jewellery</option>
+                        <option value="other">other</option>
+                    </select>
+
+
+                    <label for="productName">Product Name</label>
+                    <input required type="text" name="productName" id="productName" placeholder="eg : kashmiri sari">
+
+                    <label for="Description">Product Description</label>
+                    <input required type="email" name="Description" id="Description" placeholder="max 50 words">
+
+                    <label for="price">Product Price</label>
+                    <input required type="text" name="price" id="price" placeholder="price in Rs">
+
+                    <label for="images">Upload Images</label>
+                    <div class="images">
+                        <input type="file" id="img1" name="img1" accept="image/*" required>
+                        <input type="file" id="img2" name="img2" accept="image/*">
+                        <input type="file" id="img3" name="img3" accept="image/*">
+                        <input type="file" id="img4" name="img4" accept="image/*">
+                        <input type="file" id="img5" name="img5" accept="image/*">
+                    </div>
+                    <input class="btn" type="submit" value="Add Product">
+                </form>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3 class="company">heritagehub</h3>
+            <p class="footer-links">
+                <a class="link" href="#" class="link-1">Home</a>
+
+                <a class="link" href="#">Blog</a>
+
+                <a class="link" href="#">Pricing</a>
+
+                <a class="link" href="#">About</a>
+
+                <a class="link" href="#">QNA</a>
+
+                <a class="link" href="#">Contact</a>
+            </p>
+            <p class="footer-company-name">heritagehub © 2023</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="ancor fa fa-map-marker"></i>
+                <p class="text"><span class="span">444 S. Cedros Ave</span> Solana Beach, California</p>
+            </div>
+
+            <div>
+                <i class="ancor fa fa-phone"></i>
+                <p class="text">+1.555.555.5555</p>
+            </div>
+
+            <div>
+                <i class="ancor fa fa-envelope"></i>
+                <p class="text"><a class="link" href="mailto:support@company.com">support@heritagehub.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span class="span">About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+                vehicula sit amet.
+            </p>
+
+            <div class="footer-icons">
+
+                <a class="link" href="#"><i class="fa-brands fa-facebook ancor"></i></i></a>
+                <a class="link" href="#"><i class="fa-brands fa-twitter ancor"></i></a>
+                <a class="link" href="#"><i class="fa-brands fa-linkedin ancor"></i></a>
+                <a class="link" href="#"><i class="fa-brands fa-github ancor"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- ------------- Swiper.js CDN --------------- -->
+    <!-- <script>
+        let profile = document.getElementById("profile");
+        let add = document.getElementById("add");
+        let view = document.getElementById("view");
+        let history = document.getElementById("history");
+        let newOrder = document.getElementById("newOrder");
+        let notification = document.getElementById("notification");
+        let setting = document.getElementById("setting");
+
+        let profile_container = document.getElementById("profile_container");
+        let add_container = document.getElementById("add_container");
+        let view_container = document.getElementById("view_container");
+        let history_container = document.getElementById("history_container");
+        let newOrder_container = document.getElementById("newOrder_container");
+        let notification_container = document.getElementById("notification_container");
+        let setting_container = document.getElementById("setting_container");
+
+        let list = [profile,add,view,history,newOrder,notification,setting];
+        let list_container = [profile_container,add_container,view_container,history_container,newOrder_container,notification_container,setting_container];
+        console.log(list);
+
+        list.forEach(element => {
+            element.addEventListener("click", ()=>{
+                list_container.forEach(e => {
+                    e.classList.add("displayNone");
+                });
+                list.forEach(a,()=>{
+                    a.classList.remove("active");
+                })
+                
+                if(element == profile){
+                    profile_container.classList.remove("displayNone");
+                    profile.classList.add("active");
+                }
+                else if(element == add){
+                    add_container.classList.remove("displayNone");
+                    profile.classList.add("active");
+                }
+                else if(element == view){
+                    view_container.classList.remove("displayNone");
+                    view.classList.add("active");
+                }
+                else if(element == history){
+                    history_container.classList.remove("displayNone");
+                    history.classList.add("active");
+                }
+                else if(element == newOrder){
+                    newOrder_container.classList.remove("displayNone");
+                    newOrder.classList.add("active");
+                }
+                else if(element == notification){
+                    notification_container.classList.remove("displayNone");
+                    notification.classList.add("active");
+                }
+                else if(element == setting){
+                    setting_container.classList.remove("displayNone");
+                    setting.classList.add("active");
+                }
+            })
+        });
+
+    </script> -->
+
+</body>
+
+</html>

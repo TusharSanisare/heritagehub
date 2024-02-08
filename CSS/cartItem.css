@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.cartItem{
+  height: 200px;
+  width: 70%;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);  
+  display: flex;
+
+  .left{
+    padding: 10px;
+    height: 100%;
+    width: 30%;
+
+    .productImg{
+      height: 100%;
+      width: 100%;
+      background-image: url(../IMAGE/product-4/earing1.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  .right{
+    padding: 10px;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .title{
+      color: rgb(13, 13, 13);
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    .company{
+      color: rgb(110, 110, 110);
+    }
+    .price{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      font-weight: 900;
+
+      .avl{
+        color: green;
+        font-weight: 900;
+        font-size: 18px;
+        margin: 5px;
+      }
+    }
+    
+
+    .qty{
+      font-weight: 600;
+    }
+    .quantity{
+      width: 35px;
+    }
+    .quantity::-webkit-inner-spin-button {
+      opacity: 1;
+    }
+  }
+}
